@@ -22,3 +22,5 @@ int main()
 
     cout << findMax(arr, n) << endl;
 }
+
+// TC: O(n)     SC: O(1)
