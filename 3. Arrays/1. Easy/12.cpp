@@ -1,3 +1,4 @@
+// Find the number that appears once, and the other numbers twice
 #include<iostream>
 using namespace std;
 
@@ -15,3 +16,5 @@ int main(){
     int ans = appearOnce(arr, n);
     cout<<ans<<endl;
 }
+
+// TC: O(n)     SC: O(1)

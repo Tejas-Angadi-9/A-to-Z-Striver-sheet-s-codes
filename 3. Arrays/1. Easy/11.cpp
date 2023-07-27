@@ -10,7 +10,6 @@ int solve(int arr[], int n){
             count++;
             maxCount = max(count, maxCount);
         }
-
         else
             count = 0;
     }
@@ -23,3 +22,5 @@ int main(){
     int ans = solve(arr, n);
     cout<<ans<<endl;
 }
+
+// TC: O(n)     SC: O(1)

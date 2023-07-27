@@ -43,8 +43,10 @@ int main(){
     int arr2[] = {2,3,4,4,5};
     int m = 5;
 
-      vector <int> Union = FindUnion(arr1, arr2, n, m);
-      cout<<"Union of arr1 and arr2 is: "<<endl;
-      for(auto &val: Union)
+    vector <int> Union = FindUnion(arr1, arr2, n, m);
+    cout<<"Union of arr1 and arr2 is: "<<endl;
+    for(auto &val: Union)
         cout<<val<<" ";
 }
+
+// TC: O(m+n)   SC: O(1)

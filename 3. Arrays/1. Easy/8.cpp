@@ -20,3 +20,5 @@ int main(){
     int ans = linearSearch(arr, n, element);
     cout<<ans<<endl;
 }
+
+// TC: O(n)     SC: O(1)

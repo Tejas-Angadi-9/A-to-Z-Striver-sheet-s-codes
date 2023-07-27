@@ -30,3 +30,6 @@ int main(){
     int ans = usingXOR(arr, n);
     cout<<ans<<endl;
 }
+
+// For both
+// TC: O(n)     SC: O(1)
