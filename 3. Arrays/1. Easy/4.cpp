@@ -1,4 +1,4 @@
-// Remove Duplicates in-place from Sorted Array
+//! Remove Duplicates in-place from Sorted Array
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -20,6 +20,5 @@ int main()
     removeDuplicate(arr, n);
 }
 
-// TC: O(n)
-// SC: O(1)
-// Note: This algo works only for when the array is sorted
+//! TC: O(n)    SC: O(1)
+//! Note: This algo works only for when the array is sorted

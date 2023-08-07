@@ -1,4 +1,4 @@
-// Left rotate an array by D places
+//! Left rotate an array by D places
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -9,9 +9,12 @@ void print(int arr[], int n){
 }
 
 void reverseElements(int arr[], int n, int d){
+    //! Reversing
     reverse(arr, arr+d);
     reverse(arr+d, arr+n);
     reverse(arr, arr+n);
+
+    //! Calling the Print function
     print(arr, n);
 }
 
@@ -23,5 +26,4 @@ int main()
     reverseElements(arr, n, d);
 }
 
-// TC: O(n) + O(n) = O(2n)
-// SC: O(1)
+//! TC: O(n) + O(n) = O(2n)  SC: O(1)

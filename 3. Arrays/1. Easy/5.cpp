@@ -1,4 +1,4 @@
-// Left rotate the array by one
+//! Left rotate the array by one
 #include<iostream>
 using namespace std;
 
@@ -25,4 +25,4 @@ int main(){
     print(arr, n);
 }
 
-// TC: O(n)     SC: O(1)
+//! TC: O(n)     SC: O(1)

@@ -1,4 +1,4 @@
-// find the second largest and smallest no. in an array
+//! find the second largest and smallest no. in an array
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -64,4 +64,4 @@ int main()
     cout << second_largest << " " << second_smallest << endl;
 }
 
-// TC: O(n)     SC: O(1)
+//! TC: O(n)     SC: O(1)

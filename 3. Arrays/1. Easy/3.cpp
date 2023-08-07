@@ -3,6 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//! Using traversal method
 bool checkArray(int arr[], int n)
 {
     for (int i = 0; i < n; i += 2)
@@ -13,6 +14,15 @@ bool checkArray(int arr[], int n)
         }
     }
     return true;
+}
+
+//! Using recursion
+bool checkArrRec(int arr[], int n, int i){
+    if(i == n)  return true;
+
+    if(arr[i] > arr[i+1])   return false;
+
+    checkArrRec(arr, n, i+1);
 }
 
 int main()
@@ -27,6 +37,8 @@ int main()
     {
         cout << "False" << endl;
     }
+
+    cout<<checkArrRec(arr, n, 0);
 }
 
 // TC: O(n)     SC: O(1)
